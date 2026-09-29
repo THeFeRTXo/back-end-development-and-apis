@@ -1,0 +1,19 @@
+{
+  "name": "build-a-prime-number-checker-module",
+  "version": "1.0.0",
+  "description": "This is a prime checker module project.",
+  "keywords": [
+    "prime",
+    "number",
+    "number",
+    "checker",
+    "module"
+  ],
+  "license": "ISC",
+  "author": "thefertxo",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
