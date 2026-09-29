@@ -2,8 +2,8 @@
   "currentProject": null,
   "locale": "english",
   "lastSeed": {
-    "projectDashedName": null,
-    "lessonNumber": -1
+    "projectDashedName": "build-a-web-server",
+    "lessonNumber": 59
   },
-  "lastWatchChange": 0
+  "lastWatchChange": 59
 }
