@@ -69,13 +69,14 @@
     "dashedName": "build-a-random-joke-app",
     "isIntegrated": false,
     "isPublic": true,
-    "currentLesson": 0,
+    "currentLesson": 7,
     "runTestsOnWatch": true,
     "seedEveryLesson": false,
     "isResetEnabled": false,
     "blockingTests": null,
     "breakOnFailure": null,
-    "numberOfLessons": 8
+    "numberOfLessons": 8,
+    "completedDate": 1790870071481
   },
   {
     "id": 6,
