@@ -13,6 +13,32 @@ app.get("/", (_req, res) => {
 
 // Do not change code above this line
 
+app.get(["/api", "/api/:date"], (req, res) => {
+  const date_string  = req.params.date;
+  let date;
+  console.log(date_string)
+
+  if (!date_string){
+    date = new Date();
+  }
+
+  else if (/^\d+$/.test(date_string)) {
+    date = new Date(parseInt(date_string));
+  } 
+  else {
+    date = new Date(date_string);
+  }
+
+  if (date.toString() === "Invalid Date") {
+    return res.json({ error: "Invalid Date" });
+  }
+  
+  res.status(200).json({
+    unix : date.getTime(),
+    utc : date.toUTCString(),
+  });
+})
+
 // Do not change code below this line
 
 const PORT = 8000;
