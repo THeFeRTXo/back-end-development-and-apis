@@ -56,26 +56,28 @@
     "dashedName": "build-a-web-server",
     "isIntegrated": false,
     "isPublic": true,
-    "currentLesson": 0,
+    "currentLesson": 59,
     "runTestsOnWatch": true,
     "seedEveryLesson": true,
     "isResetEnabled": false,
     "blockingTests": false,
     "breakOnFailure": false,
-    "numberOfLessons": 60
+    "numberOfLessons": 60,
+    "completedDate": 1790706265002
   },
   {
     "id": 5,
     "dashedName": "build-a-random-joke-app",
     "isIntegrated": false,
     "isPublic": true,
-    "currentLesson": 0,
+    "currentLesson": 7,
     "runTestsOnWatch": true,
     "seedEveryLesson": false,
     "isResetEnabled": false,
     "blockingTests": null,
     "breakOnFailure": null,
-    "numberOfLessons": 8
+    "numberOfLessons": 8,
+    "completedDate": 1790870071481
   },
   {
     "id": 6,
@@ -88,7 +90,8 @@
     "isResetEnabled": true,
     "numberOfLessons": 1,
     "blockingTests": false,
-    "breakOnFailure": false
+    "breakOnFailure": false,
+    "completedDate": 1790871805069
   },
   {
     "id": 7,

@@ -20,9 +20,9 @@
     "build-a-case-converter": true,
     "build-a-prime-number-checker-module": true,
     "build-a-file-processor": true,
-    "build-a-family-movie-watchlist-api": false,
+    "build-a-family-movie-watchlist-api": true,
     "build-a-random-joke-app": true,
-    "build-a-personal-profile-app": true,
+    "build-a-personal-profile-app": false,
     "build-a-submission-form": true,
     "build-a-data-sanitizer": true,
     "build-a-weather-service-api": true,
@@ -42,7 +42,7 @@
       "open": true,
       "showLoader": true,
       "timeout": 4000,
-      "url": "https://curly-space-journey-9777qrwww5gqfx4p4-8080.app.github.dev"
+      "url": "https://glowing-computing-machine-jjjj4v9994vwhpxw9-8080.app.github.dev"
     }
   ],
   "terminal.integrated.defaultProfile.linux": "bash",
