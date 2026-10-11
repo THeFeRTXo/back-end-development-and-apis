@@ -1,7 +1,7 @@
 import express from "express";
 import helmet from "helmet";
-
-import watchlistRoutes from "./routes/watchlist";
+import authRoutes from "./routes/auth.js";
+import watchlistRoutes from "./routes/watchlist.js";
 
 const PORT = process.env.PORT;
 const app = express();
@@ -14,6 +14,8 @@ app.get("/", (req, res) => {
 });
 
 app.use("/api/watchlist", watchlistRoutes);
+app.use("/api/auth", authRoutes);
+
 
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}...`);
